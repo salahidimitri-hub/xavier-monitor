@@ -318,9 +318,7 @@ def emergency_for(country):
 # ---------------------------------------------------------------------------
 # XAVIER -- Ava's twin. He goes where it is darkest and marks the spot.
 # ---------------------------------------------------------------------------
-XAVIER_INTRO = ("I am Xavier. Ava is my twin: she keeps the lamp, I walk into the dark "
-                "and mark where it hurts. Every mark I make carries a way to help. "
-                "Look at the map. Do not look away.")
+XAVIER_INTRO = ("I am Xavier. I travel to the darkest corners of the world, where my sister Ava cannot, and become the voice of the lost. Through me you can see the pain of the world, and how to help. I have placed phone numbers beside every mark, and my mind is live: I search, and I update my map.")
 
 XAVIER_LINES = {
  "Atrocity": "This mark is the heaviest kind I make. People did this to people. The record is kept, and the channels beside it exist to answer it.",
@@ -641,7 +639,7 @@ h1{font-family:'Newsreader',serif;font-weight:400;font-size:26px;margin:0;color:
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-var INTRO="I am Xavier. Ava is my twin: she keeps the lamp, I walk into the dark and mark where it hurts. Every mark I make carries a way to help.";
+var INTRO="I am Xavier. I travel to the darkest corners of the world, where my sister Ava cannot, and become the voice of the lost. Through me you can see the pain of the world, and how to help. I have placed phone numbers beside every mark, and my mind is live: I search, and I update my map.";
 document.getElementById('intro').textContent=INTRO;
 var COLORS={'Atrocity':'#D64533','Major Crime':'#E08A3C','Disaster':'#4A90D9','Drought':'#D9B44A','Famine':'#A97BE0'};
 var map=L.map('map',{zoomControl:false,worldCopyJump:true}).setView([18,10],2);
